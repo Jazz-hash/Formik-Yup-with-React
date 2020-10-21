@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@material-ui/core";
+import React from "react";
+import "./App.css";
+import MultiStepper from "./components/MultiStepper";
+import Signup from "./components/Signup";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Box boxShadow={2} style={{ width: "70%" }}>
+        <MultiStepper />
+      </Box>
+      <Box boxShadow={2} style={{ width: "70%", margin: "20px" }}>
+        <Signup />
+      </Box>
     </div>
   );
 }
