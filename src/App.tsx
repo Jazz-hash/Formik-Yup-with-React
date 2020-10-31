@@ -7,10 +7,10 @@ import Signup from "./components/Signup";
 function App() {
   return (
     <div className="App">
-      <Box boxShadow={2} style={{ width: "70%" }}>
+      <Box boxShadow={2} style={{ width: "90%" }}>
         <MultiStepper />
       </Box>
-      <Box boxShadow={2} style={{ width: "70%", margin: "20px" }}>
+      <Box boxShadow={2} style={{ width: "90%", margin: "20px" }}>
         <Signup />
       </Box>
     </div>

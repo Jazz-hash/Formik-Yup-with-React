@@ -20,7 +20,7 @@ const sleep = (time: number) =>
 const MultiStepper = () => {
   return (
     <Card>
-      <CardContent style={{ margin: "40px" }}>
+      <CardContent style={{ margin: "0px" }}>
         <Typography
           className="styled-font"
           align="center"
